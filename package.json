@@ -2,7 +2,7 @@
     "name": "matte-black-theme",
     "displayName": "Matte Black Theme",
     "description": "Matte black theme based on Ayu dark and mirage themes.",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "CleanThemes",
     "icon": "./icon.png",
     "repository": {
@@ -23,7 +23,7 @@
                 "path": "./themes/Matte Black Theme-color-theme.json"
             }
         ]
-    }, 
+    },
     "keywords": [
         "theme",
         "dark theme",
@@ -31,5 +31,5 @@
         "black",
         "grey",
         "clean"
-    ]   
+    ]
 }
