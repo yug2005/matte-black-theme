@@ -4,7 +4,7 @@
     "description": "Matte black theme based on Ayu dark and mirage themes.",
     "version": "0.1.0",
     "publisher": "CleanThemes",
-    "icon": "./icon.png",
+    "icon": "icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/yug2005/matte-black-theme.git"
