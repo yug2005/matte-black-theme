@@ -4,7 +4,7 @@
 		"focusBorder": "#ffcc66b3",
 		"foreground": "#828182",
 		"widget.shadow": "#00000040",
-		"selection.background": "#36363640",
+		"selection.background": "#4694cf40",
 		"icon.foreground": "#828182",
 		"errorForeground": "#ff6666",
 		"descriptionForeground": "#828182",
@@ -34,10 +34,10 @@
 		"inputValidation.infoBorder": "#5ccfe6",
 		"inputValidation.warningBackground": "#202020",
 		"inputValidation.warningBorder": "#ffd173",
-		"scrollbar.shadow": "#22222200",
-		"scrollbarSlider.background": "#202020",
-		"scrollbarSlider.hoverBackground": "#252525",
-		"scrollbarSlider.activeBackground": "#282828",
+		"scrollbar.shadow": "#00000000",
+		"scrollbarSlider.background": "#ffcc6650",
+		"scrollbarSlider.hoverBackground": "#ffcc6690",
+		"scrollbarSlider.activeBackground": "#ffcc66c0",
 		"badge.background": "#ffcc6633",
 		"badge.foreground": "#ffcc66",
 		"progressBar.background": "#ffcc66",
@@ -82,10 +82,11 @@
 		"minimapGutter.modifiedBackground": "#80bfff",
 		"minimapGutter.deletedBackground": "#f27983",
 		"editorGroup.border": "#2b2b2b",
-		"editorGroup.background": "#252525",
 		"editorGroupHeader.noTabsBackground": "#202020",
 		"editorGroupHeader.tabsBackground": "#202020",
 		"editorGroupHeader.tabsBorder": "#202020",
+		"sideBySideEditor.horizontalBorder": "#1a1a1a",
+		"sideBySideEditor.verticalBorder": "#1a1a1a",
 		"tab.activeBackground": "#202020",
 		"tab.activeForeground": "#cccac2",
 		"tab.border": "#202020",
@@ -102,9 +103,9 @@
 		"editorCursor.foreground": "#ffcc66",
 		"editor.inactiveSelectionBackground": "#71717121",
 		"editor.selectionBackground": "#97979740",
-		"editor.selectionHighlightBackground": "#9a9a9a26",
-		"editor.selectionHighlightBorder": "#87d96c00",
-		"editor.wordHighlightBackground": "#5a5a5a14",
+		"editor.selectionHighlightBackground": "#60884fbb",
+		"editor.selectionHighlightBorder": "#9999996d",
+		"editor.wordHighlightBackground": "#5a5a5aa9",
 		"editor.wordHighlightStrongBackground": "#5b5b5b14",
 		"editor.wordHighlightBorder": "#5e5e5e80",
 		"editor.wordHighlightStrongBorder": "#6f6f6f80",
@@ -144,6 +145,7 @@
 		"diffEditor.diagonalFill": "#252525",
 		"editorWidget.background": "#252525",
 		"editorWidget.border": "#252525",
+		"editorWidget.foreground": "#aaa",
 		"editorHoverWidget.background": "#252525",
 		"editorHoverWidget.border": "#252525",
 		"editorSuggestWidget.background": "#252525",
@@ -199,13 +201,11 @@
 		"welcomePage.tileBackground": "#202020",
 		"welcomePage.tileShadow": "#12151cb3",
 		"welcomePage.progress.background": "#252525",
-		"welcomePage.buttonBackground": "#ffcc6666",
 		"walkThrough.embeddedEditorBackground": "#292929",
 		"gitDecoration.modifiedResourceForeground": "#80bfffb3",
 		"gitDecoration.deletedResourceForeground": "#f27983b3",
 		"gitDecoration.untrackedResourceForeground": "#87d96cb3",
 		"gitDecoration.ignoredResourceForeground": "#82818280",
-		"gitDecoration.conflictingResourceForeground": "",
 		"gitDecoration.submoduleResourceForeground": "#fa3b53b3",
 		"settings.headerForeground": "#cccac2",
 		"settings.modifiedItemIndicator": "#80bfff",
@@ -233,12 +233,6 @@
 		"terminal.ansiBrightWhite": "#ffffff"
 	},
 	"tokenColors": [
-		{
-			"settings": {
-				"background": "#202020",
-				"foreground": "#cccac2"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": [
@@ -720,31 +714,12 @@
 			}
 		},
 		{
-			"name": "Markup Code",
-			"scope": [
-				"markup.raw"
-			],
-			"settings": {
-				"background": "#cccac205"
-			}
-		},
-		{
-			"name": "Markup Code Inline",
-			"scope": [
-				"markup.raw.inline"
-			],
-			"settings": {
-				"background": "#cccac20f"
-			}
-		},
-		{
 			"name": "Markdown Separator",
 			"scope": [
 				"meta.separator"
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"background": "#cccac20f",
 				"foreground": "#b8cfe680"
 			}
 		},
@@ -809,7 +784,6 @@
 				"markup.table"
 			],
 			"settings": {
-				"background": "#cccac20f",
 				"foreground": "#5ccfe6"
 			}
 		},
@@ -828,7 +802,6 @@
 				"text.html.markdown meta.dummy.line-break"
 			],
 			"settings": {
-				"background": "#b8cfe680",
 				"foreground": "#b8cfe680"
 			}
 		},
@@ -838,7 +811,6 @@
 				"punctuation.definition.markdown"
 			],
 			"settings": {
-				"background": "#cccac2",
 				"foreground": "#b8cfe680"
 			}
 		}
