@@ -2,7 +2,7 @@
     "name": "matte-black-theme",
     "displayName": "Matte Black Theme",
     "description": "Clean matte black visual studio code theme inspired by the ayu theme package and the drake-ayu typora theme.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "publisher": "CleanThemes",
     "icon": "metadata/icon.png",
     "repository": {
