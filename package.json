@@ -1,13 +1,17 @@
 {
-    "name": "matte-black-theme",
+    "name": "matte-black",
     "displayName": "Matte Black Theme",
-    "description": "Matte black theme based on Ayu dark and mirage themes.",
+    "description": "Clean matte black visual studio code theme inspired by the ayu theme package and the drake-ayu typora theme.",
     "version": "0.2.2",
     "publisher": "CleanThemes",
-    "icon": "icon.png",
+    "icon": "metadata/icon.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/yug2005/matte-black-theme.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yug2005/matte-black-theme/issues",
+        "email": "yugtesh88@gmail.com"
     },
     "engines": {
         "vscode": "^1.67.0"
@@ -25,11 +29,10 @@
         ]
     },
     "keywords": [
-        "theme",
         "dark theme",
         "matte black",
-        "black",
-        "grey",
+        "gray",
+        "minimal",
         "clean"
     ]
 }
